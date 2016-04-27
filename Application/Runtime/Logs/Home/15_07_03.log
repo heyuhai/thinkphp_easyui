@@ -1,0 +1,6 @@
+[ 2015-07-03T11:38:25+08:00 ] 127.0.0.1 /index.php/Seccode/makecode
+ERR: 无法加载控制器:Seccode
+
+[ 2015-07-03T15:55:14+08:00 ] 127.0.0.1 /index.php/Seccode/makecode
+ERR: 无法加载控制器:Seccode
+

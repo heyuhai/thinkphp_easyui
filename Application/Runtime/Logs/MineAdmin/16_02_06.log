@@ -1,0 +1,669 @@
+[ 2016-02-06T23:11:29+08:00 ] 127.0.0.1 /mineadmin
+ERR: 无法加载控制器:Index
+
+[ 2016-02-06T23:11:40+08:00 ] 127.0.0.1 /MineAdmin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `me_sysadmin` WHERE `username` = 'admin' AND `password` = '28685dde34d8470fea83d3dc7666c13d' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-06T23:12:09+08:00 ] 127.0.0.1 /MineAdmin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-02-06T23:12:17+08:00 ] 127.0.0.1 /MineAdmin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `me_sysadmin` WHERE `username` = 'yagni' AND `password` = '42b3ae09d16e7b60e81e010c63851f92' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-06T23:12:27+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysmodule/sysmoduleList' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2016-02-06T23:12:32+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-02-06T23:12:32+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0066s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-02-06T23:12:33+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0028s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-02-06T23:12:33+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminGroupJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0056s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminGroupList' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `me_sysadmin_group` ORDER BY orderby asc, createtime desc  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2016-02-06T23:12:54+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-02-06T23:12:54+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/groupIdForPower?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.2610s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0024s ]
+SQL: SELECT `power` FROM `me_sysadmin_group` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-02-06T23:12:54+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0028s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-02-06T23:12:58+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0044s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-02-06T23:13:13+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0045s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-02-06T23:13:18+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/groupIdForPower?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0041s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0024s ]
+SQL: SELECT `power` FROM `me_sysadmin_group` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-02-06T23:13:18+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-02-06T23:13:18+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-02-06T23:13:23+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/groupIdForPower?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0041s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0096s ]
+SQL: SELECT `power` FROM `me_sysadmin_group` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-02-06T23:13:23+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0027s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-02-06T23:13:25+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/groupIdForPower?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0062s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0025s ]
+SQL: SELECT `power` FROM `me_sysadmin_group` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-02-06T23:13:25+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0029s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-02-06T23:13:26+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/groupIdForPower?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0042s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0021s ]
+SQL: SELECT `power` FROM `me_sysadmin_group` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-02-06T23:13:26+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-02-06T23:13:57+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/editPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `me_sysadmin` WHERE `id` = 1 AND `password` = '42b3ae09d16e7b60e81e010c63851f92' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `me_sysadmin` SET `password`='42b3ae09d16e7b60e81e010c63851f92' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2016-02-06T23:14:03+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/editPwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `me_sysadmin` WHERE `id` = 1 AND `password` = '42b3ae09d16e7b60e81e010c63851f92' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `me_sysadmin` SET `password`='42b3ae09d16e7b60e81e010c63851f92' WHERE `id` = 1 [ RunTime:0.0002s ]
+
+[ 2016-02-06T23:14:18+08:00 ] 127.0.0.1 /MineAdmin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `me_sysadmin` WHERE `username` = 'web' AND `password` = '42b3ae09d16e7b60e81e010c63851f92' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-02-06T23:14:50+08:00 ] 127.0.0.1 /MineAdmin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-02-06T23:14:59+08:00 ] 127.0.0.1 /MineAdmin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `me_sysadmin` WHERE `username` = 'yagni' AND `password` = '42b3ae09d16e7b60e81e010c63851f92' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-02-06T23:15:02+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-02-06T23:15:02+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0054s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-02-06T23:15:02+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysmodule/sysmoduleList' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2016-02-06T23:15:03+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0028s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-02-06T23:15:03+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminGroupJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminGroupList' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `me_sysadmin_group` ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-02-06T23:42:48+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0025s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-02-06T23:42:49+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0032s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002622s ]
+
+[ 2016-02-06T23:43:54+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-02-06T23:43:54+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-02-06T23:44:16+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-02-06T23:44:16+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0035s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2016-02-06T23:44:18+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0028s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-02-06T23:44:19+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminGroupJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminGroupList' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `me_sysadmin_group` ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-02-06T23:44:29+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-02-06T23:44:29+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-02-06T23:45:36+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-02-06T23:45:36+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-02-06T23:45:39+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0033s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-02-06T23:45:39+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/groupIdForPower?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0031s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin_group` [ RunTime:0.0021s ]
+SQL: SELECT `power` FROM `me_sysadmin_group` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-02-06T23:45:39+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList?power=1,2,3,4,5,6,8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-02-06T23:48:05+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-02-06T23:48:05+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-02-06T23:50:08+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysmodulePowerJsonList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0026s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` AS `text` FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-02-06T23:50:08+08:00 ] 127.0.0.1 /MineAdmin/Sysadmin/sysadminJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysadmin/sysadminList' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `me_sysadmin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `me_sysadmin` ORDER BY orderby asc, createtime desc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-02-06T23:50:15+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleList.html
+ERR: Think\Model:getPlusOrderby方法不存在！
+
+[ 2016-02-06T23:50:19+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleList.html
+ERR: Think\Model:getPlusOrderby方法不存在！
+
+[ 2016-02-06T23:50:37+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysmodule/sysmoduleList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-02-06T23:53:17+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0605s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysmodule/sysmoduleList' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2016-02-06T23:56:55+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0031s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysmodule/sysmoduleList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-02-06T23:57:59+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysmodule/sysmoduleList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-02-06T23:58:57+08:00 ] 127.0.0.1 /MineAdmin/Sysmodule/sysmoduleJsonData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `me_sysmodule` [ RunTime:0.1057s ]
+SQL: SELECT `id` FROM `me_sysmodule` WHERE `url` = 'Sysmodule/sysmoduleList' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 0 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 1 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `me_sysmodule` WHERE ( pid = 6 ) ORDER BY orderby asc, createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+

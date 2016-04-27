@@ -1,0 +1,77 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>后台登录</title>
+<script type="text/javascript" src="/Public/admin/js/jquery-1.8.3.min.js"></script>
+<link href="/Public/admin/css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="loginBox">
+  <form method="post" id="form_login">
+    <input type="hidden" name="form_submit" value="ok" />
+    <input type="hidden" name="SiteUrl" id="SiteUrl" value="<?php echo U('Home/Index/index');?>" />
+    <div class="username">
+      <h5>用户名:</h5>
+      <input class="text" id="username" name="username" type="text" style="width:300px;" />
+    </div>
+    <div class="password">
+      <h5>密　码:</h5>
+      <input class="text" name="password" id="password" type="password" style="width:300px;" />
+    </div>
+    <div class="code">
+      <h5>验证码:</h5>
+      <input class="text" name="captcha" id="captcha"  type="text" style="width:120px;" /><span><img style="cursor: pointer;" src="<?php echo U('Index/verify', '', '');?>" title="看不清,点击更换验证码" name="codeimage" border="0" id="codeimage" onclick="this.src='<?php echo U('Index/verify', '', '');?>?t=' + Math.random()" /></span>
+    </div>
+    <div class="button">
+        <input id="btn_submit" class="btnEnter" value="" type="button" />
+    </div>
+    <div class="back"><a href="<?php echo U('Home/Index/index');?>" target="_blank">返回前端首页</a></div>
+  </form>
+</div>
+<script>
+$(document).ready(function(){
+    if(top.location!=this.location) top.location=this.location;//跳出框架在主窗口登录
+    $('#username').focus();
+    if ($.browser.msie && $.browser.version=="6.0"){
+        window.location.href='<?php echo U("Index/ie6update"); ?>';
+    }
+
+    $("#btn_submit").click(function(){
+        var username = $("#username").val();
+        var password = $("#password").val();
+        var captcha = $("#captcha").val();
+
+        if(username == ''){
+            alert('请输入账号！');return false;
+        }
+        if(password == ''){
+            alert('请输入密码！');return false;
+        }
+        if(captcha == ''){
+            alert('请输入验证码！');return false;
+        }
+
+        //ajax提交
+        $.ajax({
+            type: "POST",
+            url: "<?php echo U('Index/index'); ?>",
+            dataType: "json",
+            data: {username: username, password: password, captcha: captcha},
+            success: function(res){
+                console.log(res);
+                var errno = res.errno;
+                if(errno != 0){
+                    alert(res.msg);
+                    $("#codeimage").attr("src", '<?php echo U('Index/verify', '', '');?>?t='+Math.random());
+                    return false;
+                }else{
+                    window.location.href = "<?php echo U('Index/main'); ?>";
+                }
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
